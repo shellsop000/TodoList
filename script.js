@@ -32,10 +32,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 <span class="task-text">${taskText}</span>
             </div>
             <div class="flex gap-2">
-                <button class="edit-btn text-blue-500 hover:text-blue-700">
+                <button type="button" class="edit-btn btn btn-secondary">
                     Edit
                 </button>
-                <button class="delete-btn text-red-500 hover:text-red-700">
+                <button type="button" class="delete-btn btn btn-danger">
                     Delete
                 </button>
             </div>
